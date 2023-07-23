@@ -1,0 +1,15 @@
+.encabezado{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.contenedor__encabezado{
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.flexbox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
