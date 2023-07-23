@@ -1,0 +1,9 @@
+.contenido{
+    padding: 20px;
+    background: linear-gradient(#FFFFFF,#fefefe,#888888)
+}
+
+.contenedor__contenido{
+    width: 90vw;
+    margin: 0 auto;
+}
