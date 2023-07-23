@@ -4,6 +4,14 @@
     margin-bottom: .6rem;
 }
 
+.informacion__general p{
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.35;
+}
+
 .utencilios{
     width: 6rem;
+    float: left;
+    margin-right: 1rem;
 }
