@@ -1,0 +1,24 @@
+.lista_dimensiones{
+    height: 7rem;
+}
+
+.lista{
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.items__links{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.items__links:hover{
+    text-decoration: underline;
+}
