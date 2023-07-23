@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/encabezado/encabezado.css">
     <link rel="stylesheet" href="./css/encabezado/lista/lista.css">
     <link rel="stylesheet" href="./css/encabezado/lista/logo.css">
+    <link rel="stylesheet" href="./css/contenido/contenido.css">
 </head>
 <body>
     <header class="encabezado">
@@ -15,14 +16,30 @@
             <div class="logo">
                 <img src="./img/logo.png" alt="Logo">
             </div>
-            <div class="rutas lista_dimensiones">
-                <ul class="lista">
-                    <li class="items"><a href="#" class="items__links">inicio</a></li>
-                    <li class="items"><a href="#" class="items__links">productos</a></li>
-                    <li class="items"><a href="#" class="items__links">contactos</a></li>
-                </ul>
+            <div class="rutas">
+                <nav class="navegacion lista_dimensiones">
+                    <ul class="lista">
+                        <li class="items"><a href="#" target="_blank" class="items__links">inicio</a></li>
+                        <li class="items"><a href="#" target="_blank" class="items__links">productos</a></li>
+                        <li class="items"><a href="#" target="_blank" class="items__links">contactos</a></li>
+                    </ul>
+                </nav>
             </div>
         </section>
     </header>
+    <img src="./img/fondo1.jpg" alt="Fondo" class="fondo">
+    <main class="contenido">
+        <section class="contenedor__contenido">
+            <div class="informacion">
+                <div class="informacion__general">
+                    <h1 class="titulo">Sobre la Barbería Alura</h1>
+                    <img src="./img/utencilios.jpg" alt="Utencilios" class="utencilios">
+                    <p>Ubicada en el corazón de la ciudad, la Barbería Alura trae para el mercado lo que hay de mejor para su cabello y barba. 
+                    Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos clientes diariamente.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
