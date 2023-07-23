@@ -4,14 +4,23 @@
     margin-bottom: .6rem;
 }
 
-.informacion__general p{
+.texto__informacion{
     font-size: 1rem;
     text-align: justify;
     line-height: 1.35;
 }
 
 .utencilios{
-    width: 6rem;
+    width: 7rem;
     float: left;
-    margin-right: 1rem;
+    margin-right: .6rem;
+}
+
+.mision{
+    margin: .5rem 0;
+    font-style: italic;
+}
+
+.texto__mision{
+    font-weight: bold;
 }
