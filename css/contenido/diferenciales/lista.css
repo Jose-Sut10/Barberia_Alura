@@ -1,0 +1,26 @@
+.titulo_diferenciales{
+    margin: 1.2rem 0px .6rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.items_diferenciales{
+    font-size: 1.12rem;
+    line-height: 1.35;
+}
+
+.imagen__diferenciales{
+    width: 8rem;
+    float: right;
+    transition: 400ms;
+    opacity: 0.3;
+    box-shadow: 10px 10px 30px 15px #000000;
+}
+
+.items_diferenciales:first-child{
+    font-weight: bold;
+}
+
+.items_diferenciales:before{
+    content: "⭐ ";
+}
