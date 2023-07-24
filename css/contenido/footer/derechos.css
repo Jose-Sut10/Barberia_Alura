@@ -1,0 +1,15 @@
+.derechos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descripcion__derechos{
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-top: .6rem;
+}
+.imagen__derechos{
+    width: 8rem;
+    height: 10rem;
+}

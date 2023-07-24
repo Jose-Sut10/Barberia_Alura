@@ -1,0 +1,9 @@
+.pie_pagina{
+    background-image: url('/contenido/img/bg.jpg');
+    padding: 20px 0px;
+}
+
+.contenedor__pie--pagina{
+    width: 90vw;
+    margin: 0 auto;
+}
