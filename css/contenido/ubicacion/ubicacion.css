@@ -3,6 +3,7 @@
 }
 
 .titulo_ubicacion{
+    font-family: 'Lugrasimo', cursive;
     font-weight: bold;
     margin-bottom: .5rem;
     font-size: 1.5rem;
@@ -11,8 +12,10 @@
 
 .ubicacion p{
     font-size: 1.12rem;
+    font-weight: 800;
     line-height: 1.35;
     text-align: justify;
+    font-family: 'Tajawal', sans-serif;
 }
 
 .mapa iframe{
@@ -30,5 +33,17 @@
     }
     .mapa iframe{
         height: 22rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .titulo_ubicacion{
+        font-size: 1.8rem;
+    }
+    .ubicacion p{
+        font-size: 1.5rem;
+    }
+    .mapa iframe{
+        height: 28rem;
     }
 }
