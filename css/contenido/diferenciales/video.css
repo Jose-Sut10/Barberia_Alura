@@ -1,7 +1,16 @@
 .video{
     margin-top: 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 .video iframe{
-    height: 15rem;
+    width: 80%;
+    height: 12rem;
+}
+
+@media screen and (767px <= width < 1024px){
+    .video iframe{
+        height: 20rem;
+    }
 }

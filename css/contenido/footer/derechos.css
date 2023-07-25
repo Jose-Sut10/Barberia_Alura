@@ -13,3 +13,19 @@
     width: 8rem;
     height: 10rem;
 }
+
+.diseniador{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.diseniador:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+@media screen and (767px <= width < 1024px){
+    .descripcion__derechos{
+        font-size: 1.4rem;
+    }
+}
