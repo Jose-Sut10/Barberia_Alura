@@ -21,5 +21,6 @@
 }
 
 .items__links:hover{
+    color: #c78c19;
     text-decoration: underline;
 }

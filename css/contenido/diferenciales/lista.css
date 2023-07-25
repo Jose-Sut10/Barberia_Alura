@@ -13,8 +13,7 @@
     width: 8rem;
     float: right;
     transition: 400ms;
-    opacity: 0.3;
-    box-shadow: 10px 10px 30px 15px #000000;
+    box-shadow: 5px 5px 30px 5px #000000;
 }
 
 .items_diferenciales:first-child{
@@ -23,4 +22,8 @@
 
 .items_diferenciales:before{
     content: "⭐ ";
+}
+
+.imagen__diferenciales:hover{
+    opacity: 0.5;
 }
