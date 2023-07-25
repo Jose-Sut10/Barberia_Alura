@@ -44,6 +44,12 @@
         font-size: 1.5rem;
     }
     .mapa iframe{
-        height: 28rem;
+        height: 30rem;
+    }
+    .ubicacion{
+        align-items: stretch;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 }

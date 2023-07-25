@@ -1,4 +1,5 @@
 .titulo_diferenciales{
+    font-family: 'Lugrasimo', cursive;
     font-weight: bold;
     margin: 1.2rem 0px 1.2rem 0;
     font-size: 1.5rem;
@@ -6,12 +7,14 @@
 }
 
 .items_diferenciales{
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 500;
     font-size: 1.12rem;
     line-height: 1.35;
 }
 
 .imagen__diferenciales{
-    width: 8rem;
+    width: 10rem;
     float: right;
     transition: 400ms;
     box-shadow: 5px 5px 30px 5px #000000;
@@ -40,7 +43,26 @@
         font-size: 1.5rem;
         line-height: 1.5;
     }
-    .contenido__diferenciales{
-        width: 60%;
+    
+}
+
+@media screen and (min-width: 1024px){
+    .titulo_diferenciales{
+        font-size: 1.8rem;
+    }
+    .items_diferenciales{
+        font-size: 1.5rem;
+    }
+    .imagen__diferenciales{
+        width: 15rem;
+    }
+    .diferenciales{
+        width: 65%;
+        
+    }
+    .contenedor__contenido{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
