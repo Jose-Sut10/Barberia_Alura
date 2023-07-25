@@ -24,3 +24,9 @@
     color: #c78c19;
     text-decoration: underline;
 }
+
+@media screen and (767px <= width < 1024px){
+    .lista{
+        flex-direction: row;
+    }
+}
