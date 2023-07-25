@@ -13,6 +13,7 @@
 }
 
 .items__links{
+    font-family: 'Lugrasimo', cursive;
     font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
@@ -26,10 +27,28 @@
 }
 
 @media screen and (767px <= width < 1024px){
+    .lista_dimensiones{
+        height: auto;
+    }
     .lista{
         flex-direction: row;
     }
     .items__links{
         font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .lista_dimensiones{
+        height: auto;
+    }
+    .lista{
+        flex-direction: row;
+    }
+    .items__links{
+        font-size: 1.6rem;
+    }
+    .rutas{
+        width: 55%;
     }
 }
