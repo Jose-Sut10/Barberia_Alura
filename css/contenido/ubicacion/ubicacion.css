@@ -28,4 +28,7 @@
     .ubicacion p{
         font-size: 1.5rem;
     }
+    .mapa iframe{
+        height: 22rem;
+    }
 }

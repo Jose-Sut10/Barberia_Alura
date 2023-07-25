@@ -1,5 +1,6 @@
 .titulo_diferenciales{
-    margin: 1.2rem 0px .6rem 0;
+    font-weight: bold;
+    margin: 1.2rem 0px 1.2rem 0;
     font-size: 1.5rem;
     text-align: center;
 }
@@ -26,4 +27,20 @@
 
 .imagen__diferenciales:hover{
     opacity: 0.5;
+}
+
+@media screen and (767px <= width < 1024px){
+    .titulo_diferenciales{
+        font-size: 2rem;
+    }
+    .imagen__diferenciales{
+        width: 18rem;
+    }
+    .items_diferenciales{
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+    .contenido__diferenciales{
+        width: 60%;
+    }
 }
