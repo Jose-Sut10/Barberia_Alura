@@ -2,6 +2,7 @@
     font-size: 1.5rem;
     text-align: center;
     margin-bottom: .6rem;
+    font-weight: bold;
 }
 
 .texto__informacion{
@@ -23,4 +24,16 @@
 
 .texto__mision{
     font-weight: bold;
+}
+
+@media screen and (767px <= width < 1024px){
+    .titulo{
+        font-size: 2rem;
+    }
+    .texto__informacion{
+        font-size: 1.4rem;
+    }
+    .utencilios{
+        width: 12rem;
+    }
 }

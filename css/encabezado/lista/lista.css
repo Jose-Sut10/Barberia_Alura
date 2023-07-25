@@ -29,4 +29,7 @@
     .lista{
         flex-direction: row;
     }
+    .items__links{
+        font-size: 1.4rem;
+    }
 }
