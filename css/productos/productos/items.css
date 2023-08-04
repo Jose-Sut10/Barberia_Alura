@@ -39,3 +39,11 @@
     font-size: 1.6rem;
     font-weight: bold;
 }
+
+.items_productos:hover{
+    border-color: #c78c19; 
+}
+
+.items_productos:active{
+    border-color: #088c19; 
+}
