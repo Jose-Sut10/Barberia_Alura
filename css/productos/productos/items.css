@@ -7,14 +7,35 @@
     margin: 0 auto;
 }
 
+.lista__productos{
+    height: 90rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .items_productos{
-    display: inline-block;
     text-align: center;
-    width: 30%;
-    vertical-align: top;
+    width: 95%;
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 15px;
+}
+
+.titulo__producto{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.descripcion__producto{
+    font-size: 1.8rem;
+}
+
+.precio__producto{
+    margin-top: .8rem;
+    font-size: 1.6rem;
+    font-weight: bold;
 }
