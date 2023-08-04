@@ -2,3 +2,10 @@
     width: 8rem;
     height: 10rem;
 }
+
+@media screen and (min-width: 1024px){
+    .logo img{
+        width: 10rem;
+        height: 12rem;
+    }
+}
