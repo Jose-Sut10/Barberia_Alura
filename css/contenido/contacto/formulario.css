@@ -92,3 +92,25 @@
     color: #FFFFFF;
     border: none;
 }
+
+.titulo__Horarios{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.horarios__atencion{
+    margin-top: 1rem;
+}
+
+.horarios__atencion thead{
+    background: #555555;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.horarios__atencion td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    font-size: 20px;
+}
