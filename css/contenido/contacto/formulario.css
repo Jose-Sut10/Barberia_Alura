@@ -34,9 +34,6 @@
 
 .contenido__metodosContacto{
     padding-top: 1.5rem;
-    height: 10rem;
-    display: flex;
-    flex-direction: column;
 }
 
 .contenido__metodosContacto h2{
@@ -44,4 +41,16 @@
     font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 1rem;
+}
+
+.metodos__Contacto{
+    font-size: 1.3rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.metodos__Contacto input{
+    accent-color: #239089;
 }
