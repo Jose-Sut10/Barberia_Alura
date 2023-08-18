@@ -47,3 +47,29 @@
 .items_productos:active{
     border-color: #088c19; 
 }
+
+@media screen and (767px <= width < 1024px){
+    .lista__productos{
+        flex-direction: row;
+        height: auto;
+    }
+    .items_productos{
+        width: 18rem;
+        height: 24rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .items_productos img{
+        width: 10rem;
+    }
+    .titulo__producto{
+        font-size: 1.65rem;
+    }
+    .descripcion__producto{
+        font-size: 1.4rem;
+    }
+    .precio__producto{
+        font-size: 1.35rem;
+    }
+}
