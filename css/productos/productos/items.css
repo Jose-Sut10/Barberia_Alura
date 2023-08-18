@@ -75,5 +75,28 @@
 }
 
 @media screen and (min-width: 1024px){
-
+    .lista__productos{
+        flex-direction: row;
+        height: auto;
+    }
+    .items_productos{
+        width: 20rem;
+        height: 28rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .items_productos img{
+        width: 14rem;
+    }
+    .titulo__producto{
+        font-size: 2.1rem;
+    }
+    .descripcion__producto{
+        font-size: 1.95rem;
+    }
+    .precio__producto{
+        font-size: 1.75rem;
+    }
 }
