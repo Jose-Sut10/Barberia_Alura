@@ -54,3 +54,22 @@
 .metodos__Contacto input{
     accent-color: #239089;
 }
+
+.seleccion__horario{
+    margin-top: 1.5rem;
+}
+
+.seleccion__horario label{
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.opciones__horario{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    width: 50%;
+    padding: .5rem;
+    box-sizing: border-box;
+}
