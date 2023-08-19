@@ -6,3 +6,9 @@
     width: 85vw;
     margin: 0 auto;
 }
+
+@media screen and (min-width: 1024px){
+    .contenedor__contacto{
+        width: 60vw;
+    }
+}
